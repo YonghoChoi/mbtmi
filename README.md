@@ -1,5 +1,7 @@
 # mbtmi
 
+## Web 설정
+
 1. 가상환경 만들기
 ```buildoutcfg
 djangoPrj01> python3 -m venv venv
@@ -30,4 +32,18 @@ python3 manage.py runserver
 6. 어플리케이션 구동
 ```buildoutcfg
 python manage.py startapp mbtmi
+```
+
+## API 설정
+
+1. 모듈 설치
+```
+npm i YonghoChoi/b5-johnson-120-ipip-neo-pi-r
+npm i YonghoChoi/b5-result-text
+npm i YonghoChoi/bigfive-calculate-score
+```
+
+2. test 코드 실행
+```
+node api/sample.js
 ```
